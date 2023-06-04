@@ -2,9 +2,10 @@
   --main-color: #bb5a5a;
   --first-color: #e79e85;
   --second-color: #eaceb4;
-  --third-color: #f2e9d0;
+  --third-color: #eeece8;
   --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --element-transition: all 150ms ease-in-out;
+  --italic: "Great Vibes", cursive;
 }
 
 * {
@@ -13,7 +14,7 @@
 }
 
 body {
-  background: var(--main-color);
+  background: var(--third-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -24,14 +25,14 @@ header {
   background-size: cover;
   color: white;
   padding: 200px 0;
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
 header h1 {
-  font-size: 156px;
+  font-size: 126px;
   font-weight: 200;
-  margin: 30px 0;
+  margin: 10px 0;
 }
 
 header h2 {
@@ -43,8 +44,28 @@ header h2 {
 
 header h3 {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
+}
+
+a {
+  display: flex;
+}
+
+.contact-button {
+  background: var(--main-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+  font-size: 18px;
+  transition: var(--element-transition);
+}
+
+.contact-button:hover {
+  background: var(--first-color);
+}
+
+.hand-written {
+  font-family: var(--italic);
 }
