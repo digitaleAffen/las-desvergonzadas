@@ -49,7 +49,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 40px;
+  font-size: 46px;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
@@ -64,10 +64,14 @@ header h3 {
   margin: 0;
 }
 
+main h2 {
+  font-size: 46px;
+}
+
 main h3 {
   color: var(--main-color);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
@@ -93,7 +97,7 @@ a {
   display: flex;
 }
 
-.container {
+.full-container {
   padding-top: 100vh;
 }
 
