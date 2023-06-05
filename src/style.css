@@ -70,6 +70,14 @@ main h4 {
   margin: 0;
 }
 
+main h5 {
+  color: var(--first-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
 a {
   display: flex;
 }
