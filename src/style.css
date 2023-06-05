@@ -20,14 +20,14 @@ body {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url("../images/sammy_header.jpg");
+    url("../images/images/IMG_2446.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 200px 0;
+  padding: 200px;
   text-align: left;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 header h1 {
