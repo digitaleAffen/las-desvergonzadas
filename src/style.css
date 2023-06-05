@@ -117,13 +117,20 @@ a {
   background: white;
 }
 
+.background-image {
+  background-image: url(https://www.market.prettywebdesign.biz/engage/wp-content/uploads/sites/6/2017/05/achievement-break-business-688668.jpg);
+}
+
 .testimonio {
   background: #eeece8;
   padding: 40px;
+  border-radius: 8px;
 }
 
-.texto-testimonio {
+.testimonio-texto {
   font-size: 12px;
+  display: block;
+  position: relative;
 }
 
 .round-pic {
