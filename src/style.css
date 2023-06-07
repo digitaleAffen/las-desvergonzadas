@@ -64,6 +64,13 @@ header h3 {
   margin: 0;
 }
 
+main h1 {
+  font-style: italic;
+  font-size: 66px;
+  font-weight: 200;
+  margin: 10px 0;
+}
+
 main h2 {
   font-size: 46px;
 }
@@ -95,6 +102,11 @@ main h5 {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
 }
 
 footer {
@@ -197,6 +209,16 @@ footer p {
   height: 150px;
   border-radius: 90%;
   vertical-align: middle;
+}
+
+.coaches-pic {
+  border-radius: 90%;
+  vertical-align: middle;
+}
+
+.hero-home {
+  padding: 80px 10px;
+  font-size: 26px;
 }
 
 .instagram-embed {
