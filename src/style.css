@@ -94,7 +94,27 @@ main h5 {
 }
 
 a {
-  display: flex;
+  text-decoration: none;
+}
+
+footer {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../images/pexels-monstera-6621182.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+footer h4 {
+  color: var(--main-color);
+  font-size: 20px;
+}
+
+footer p {
+  color: #e79e85;
 }
 
 .full-container {
@@ -122,6 +142,18 @@ a {
 }
 
 .appointment-button:hover {
+  background: var(--main-color);
+  color: white;
+}
+
+.newsletter-button {
+  background: var(--first-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+  transition: var(--element-transition);
+}
+
+.newsletter-button:hover {
   background: var(--main-color);
   color: white;
 }
@@ -167,9 +199,87 @@ a {
   vertical-align: middle;
 }
 
+.instagram-embed {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-media {
+  font-size: 56px;
+  padding: 12px;
+  text-align: center;
+}
+
+.icon {
+  color: var(--first-color);
+  font-size: 26px;
+  padding: 12px;
+  display: inline-block;
+}
+
+.icon:hover {
+  color: var(--main-color);
+}
+
+.footer-text {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px 240px 80px 240px;
+}
+
+.giovanna {
+  color: var(--first-color);
+  font-weight: 800;
+}
+
+.giovanna:hover {
+  color: var(--main-color);
+}
+
+.email-box {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
 @media (max-width: 998px) {
   .round-pic {
     float: left;
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 58px;
+  }
+
+  header h2 {
+    font-size: 28px;
+    line-height: 0.9;
+  }
+
+  header h3 {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  main h2 {
+    font-size: 24px;
+  }
+
+  .contact-text {
+    text-align: center;
+  }
+
+  .footer-text {
+    padding: 40px;
   }
 }
