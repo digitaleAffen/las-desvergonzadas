@@ -203,7 +203,7 @@ footer p {
 }
 
 .testimonio {
-  background: #eeece8;
+  background: var(--second-color);
   padding: 40px;
   border-radius: 8px;
 }
