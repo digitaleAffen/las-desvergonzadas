@@ -5,7 +5,7 @@
   --third-color: #f6f3ec;
   --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --element-transition: all 150ms ease-in-out;
-  --italic: "Great Vibes", cursive;
+  --bold: "Anton", sans-serif;
 }
 
 * {
@@ -16,7 +16,7 @@
 
 body {
   background: var(--third-color);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -33,26 +33,32 @@ header {
   height: 100vh;
 }
 
-.banner-text {
+.header-banner {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: left;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 header h1 {
-  font-style: italic;
-  font-size: 146px;
-  font-weight: 200;
-  margin: 10px 0;
+  color: var(--second-color);
+  font-size: 166px;
+  line-height: 1;
+  letter-spacing: 0.1px;
+  margin: 40px 0;
 }
 
 header h2 {
-  font-size: 46px;
-  font-weight: 400;
-  line-height: 1.5;
+  color: var(--second-color);
+  font-size: 18px;
   margin: 0;
+  letter-spacing: 4px;
 }
 
 header h3 {
@@ -170,8 +176,8 @@ footer p {
   color: white;
 }
 
-.hand-written {
-  font-family: var(--italic);
+.bold-written {
+  font-family: var(--bold);
 }
 
 .hola {
@@ -265,6 +271,16 @@ footer p {
 }
 
 @media (max-width: 998px) {
+  header h1 {
+    font-size: 90px;
+    margin: 30px 0;
+  }
+
+  header h2 {
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
+
   .round-pic {
     float: left;
     display: block;
