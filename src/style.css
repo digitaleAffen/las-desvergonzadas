@@ -1,8 +1,8 @@
 :root {
-  --main-color: #bb5a5a;
-  --first-color: #e79e85;
-  --second-color: #eaceb4;
-  --third-color: #eeece8;
+  --main-color: #fa9f6c;
+  --first-color: #e1bcdb;
+  --second-color: #f0fd71;
+  --third-color: #f6f3ec;
   --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --element-transition: all 150ms ease-in-out;
   --italic: "Great Vibes", cursive;
@@ -126,7 +126,7 @@ footer h4 {
 }
 
 footer p {
-  color: #e79e85;
+  color: var(--main-color);
 }
 
 .full-container {
