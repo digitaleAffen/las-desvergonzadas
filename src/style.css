@@ -180,6 +180,10 @@ footer p {
   font-family: var(--bold);
 }
 
+.bright-text {
+  color: var(--second-color);
+}
+
 .hola {
   font-size: 30px !important;
   font-weight: 400 !important;
